@@ -1,24 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="WwP-Vz-ytN">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--GAME PLAY-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ClickerGameStoreSchmidt" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Tdy-LF-CrW">
+                                <rect key="frame" x="0.0" y="103" width="393" height="749"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ed" translatesAutoresizingMaskIntoConstraints="NO" id="Oz7-UY-0sn">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="674"/>
+                                        <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="GCa-rz-oVU" appends="YES" id="PyX-vH-mrI"/>
+                                        </connections>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lyc-MR-0TP">
+                                        <rect key="frame" x="0.0" y="674" width="393" height="75"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CyN-m8-dBN">
+                                                <rect key="frame" x="0.0" y="0.0" width="235.66666666666666" height="75"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="store" translatesAutoresizingMaskIntoConstraints="NO" id="NIf-ew-rZr">
+                                                <rect key="frame" x="235.66666666666663" y="0.0" width="157.33333333333337" height="75"/>
+                                                <gestureRecognizers/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="PKN-vE-n7x" appends="YES" id="dbc-az-Ly1"/>
+                                                </connections>
+                                            </imageView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="CyN-m8-dBN" firstAttribute="width" secondItem="Lyc-MR-0TP" secondAttribute="width" multiplier="0.6" id="enQ-Uq-bqV"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Oz7-UY-0sn" firstAttribute="height" secondItem="Tdy-LF-CrW" secondAttribute="height" multiplier="0.9" id="Shj-dO-5Gv"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.86078912019729614" green="0.0" blue="0.46584748406327819" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Tdy-LF-CrW" secondAttribute="bottom" id="EqI-AA-Wnd"/>
+                            <constraint firstItem="Tdy-LF-CrW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="FbD-uX-d8Q"/>
+                            <constraint firstItem="Tdy-LF-CrW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ZEA-io-vSM"/>
+                            <constraint firstAttribute="trailing" secondItem="Tdy-LF-CrW" secondAttribute="trailing" id="Zhq-IZ-9zU"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="GAME PLAY" id="7hm-0A-bWd"/>
+                    <connections>
+                        <segue destination="R5O-6I-Cmz" kind="show" identifier="storeSegue" id="2B7-QQ-eoX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="PKN-vE-n7x">
+                    <connections>
+                        <action selector="storeTapAction:" destination="BYZ-38-t0r" id="0Ws-oq-uPg"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="GCa-rz-oVU">
+                    <connections>
+                        <action selector="edTapAction:" destination="BYZ-38-t0r" id="65x-ht-DX8"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
+            <point key="canvasLocation" x="1063.3587786259541" y="3.5211267605633805"/>
+        </scene>
+        <!--STORE-->
+        <scene sceneID="6X2-cu-Mbb">
+            <objects>
+                <viewController id="R5O-6I-Cmz" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sJy-Bj-i4Y">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="SVi-fj-Rv0">
+                                <rect key="frame" x="0.0" y="103" width="393" height="715"/>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="kYM-BD-Jf0"/>
+                        <color key="backgroundColor" red="0.86274516580000005" green="0.57064366693344248" blue="0.6738616113067063" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="kYM-BD-Jf0" firstAttribute="trailing" secondItem="SVi-fj-Rv0" secondAttribute="trailing" id="9Ng-Ro-qdE"/>
+                            <constraint firstItem="SVi-fj-Rv0" firstAttribute="leading" secondItem="kYM-BD-Jf0" secondAttribute="leading" id="Kvz-hC-4tV"/>
+                            <constraint firstItem="kYM-BD-Jf0" firstAttribute="bottom" secondItem="SVi-fj-Rv0" secondAttribute="bottom" id="ZfB-r3-tME"/>
+                            <constraint firstItem="SVi-fj-Rv0" firstAttribute="top" secondItem="kYM-BD-Jf0" secondAttribute="top" id="gc2-ef-ygS"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="STORE" id="EfI-kE-qb5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PAF-fY-ePb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1844" y="4"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="yui-D3-9fu">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="WwP-Vz-ytN" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Og8-Ij-n2c">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="14P-R7-u0s"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AlS-cC-jcp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.64122137404578" y="3.5211267605633805"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="ed" width="1200" height="600"/>
+        <image name="store" width="800" height="630"/>
+    </resources>
 </document>
