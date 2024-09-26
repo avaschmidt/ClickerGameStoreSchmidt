@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		223CD0242CA590DB00A43944 /* MinigameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223CD0232CA590DB00A43944 /* MinigameViewController.swift */; };
 		22C3459E2CA437BF00665891 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C3459D2CA437BF00665891 /* AppDelegate.swift */; };
 		22C345A02CA437BF00665891 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C3459F2CA437BF00665891 /* SceneDelegate.swift */; };
 		22C345A22CA437BF00665891 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C345A12CA437BF00665891 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		223CD0232CA590DB00A43944 /* MinigameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinigameViewController.swift; sourceTree = "<group>"; };
 		22C3459A2CA437BF00665891 /* ClickerGameStoreSchmidt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClickerGameStoreSchmidt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22C3459D2CA437BF00665891 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22C3459F2CA437BF00665891 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				22C3459F2CA437BF00665891 /* SceneDelegate.swift */,
 				22C345A12CA437BF00665891 /* ViewController.swift */,
 				22C345A32CA437BF00665891 /* Main.storyboard */,
+				223CD0232CA590DB00A43944 /* MinigameViewController.swift */,
 				22C345B42CA4428300665891 /* StoreViewController.swift */,
 				22C345A92CA437C000665891 /* Assets.xcassets */,
 				22C345AB2CA437C000665891 /* LaunchScreen.storyboard */,
@@ -147,6 +150,7 @@
 				22C345B52CA4428300665891 /* StoreViewController.swift in Sources */,
 				22C345A82CA437BF00665891 /* ClickerGameStoreSchmidt.xcdatamodeld in Sources */,
 				22C345A22CA437BF00665891 /* ViewController.swift in Sources */,
+				223CD0242CA590DB00A43944 /* MinigameViewController.swift in Sources */,
 				22C3459E2CA437BF00665891 /* AppDelegate.swift in Sources */,
 				22C345A02CA437BF00665891 /* SceneDelegate.swift in Sources */,
 			);

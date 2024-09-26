@@ -8,8 +8,12 @@ class StoreViewController: UIViewController {
     
     @IBOutlet weak var pointsLabelOutlet: UILabel!
     
+    var unlocked = false
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+       
             
         pointsLabelOutlet.text = "Points: \(AppData.points)"
         powerUpOutlet.text = "Multiplier: \(AppData.multiplier)x Add: \(AppData.add)+"
@@ -47,6 +51,25 @@ class StoreViewController: UIViewController {
         pointsLabelOutlet.text = "Points: \(AppData.points)"
     }
     
+    @IBAction func miniGameAction(_ sender: UIButton) {
+        
+        if unlocked == false{
+            if AppData.points >= 500.0{
+                unlocked = true
+                errorOutlet.text = ""
+                AppData.points = AppData.points - 500.0
+                AppData.multiplier = AppData.multiplier + 1.0
+            }
+            else{
+                errorOutlet.text = "Not Enough Points"
+            }
+        }
+        else{
+            errorOutlet.text = "Already Unlocked!"
+        }
+        powerUpOutlet.text = "Multiplier: \(AppData.multiplier)x Add: \(AppData.add)+"
+        pointsLabelOutlet.text = "Points: \(AppData.points)"
+    }
     
     
     
