@@ -1,7 +1,7 @@
 import UIKit
 
 class AppData{
-    static var points = 500.0
+    static var points = 0.0
     static var multiplier = 1.0
     static var add = 1.0
 }
