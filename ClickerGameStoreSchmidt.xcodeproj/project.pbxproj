@@ -13,9 +13,9 @@
 		22C345A22CA437BF00665891 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C345A12CA437BF00665891 /* ViewController.swift */; };
 		22C345A52CA437BF00665891 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 22C345A42CA437BF00665891 /* Base */; };
 		22C345A82CA437BF00665891 /* ClickerGameStoreSchmidt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 22C345A62CA437BF00665891 /* ClickerGameStoreSchmidt.xcdatamodeld */; };
-		22C345AA2CA437C000665891 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22C345A92CA437C000665891 /* Assets.xcassets */; };
 		22C345AD2CA437C000665891 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 22C345AC2CA437C000665891 /* Base */; };
 		22C345B52CA4428300665891 /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C345B42CA4428300665891 /* StoreViewController.swift */; };
+		22E29A442CA63D74006B6E8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22E29A432CA63D74006B6E8F /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,10 +26,10 @@
 		22C345A12CA437BF00665891 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		22C345A42CA437BF00665891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		22C345A72CA437BF00665891 /* ClickerGameStoreSchmidt.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ClickerGameStoreSchmidt.xcdatamodel; sourceTree = "<group>"; };
-		22C345A92CA437C000665891 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22C345AC2CA437C000665891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22C345AE2CA437C000665891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22C345B42CA4428300665891 /* StoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
+		22E29A432CA63D74006B6E8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,11 +64,11 @@
 			children = (
 				22C3459D2CA437BF00665891 /* AppDelegate.swift */,
 				22C3459F2CA437BF00665891 /* SceneDelegate.swift */,
-				22C345A12CA437BF00665891 /* ViewController.swift */,
 				22C345A32CA437BF00665891 /* Main.storyboard */,
+				22C345A12CA437BF00665891 /* ViewController.swift */,
 				223CD0232CA590DB00A43944 /* MinigameViewController.swift */,
 				22C345B42CA4428300665891 /* StoreViewController.swift */,
-				22C345A92CA437C000665891 /* Assets.xcassets */,
+				22E29A432CA63D74006B6E8F /* Assets.xcassets */,
 				22C345AB2CA437C000665891 /* LaunchScreen.storyboard */,
 				22C345AE2CA437C000665891 /* Info.plist */,
 				22C345A62CA437BF00665891 /* ClickerGameStoreSchmidt.xcdatamodeld */,
@@ -134,8 +134,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22C345AA2CA437C000665891 /* Assets.xcassets in Resources */,
 				22C345AD2CA437C000665891 /* Base in Resources */,
+				22E29A442CA63D74006B6E8F /* Assets.xcassets in Resources */,
 				22C345A52CA437BF00665891 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,6 +307,7 @@
 				DEVELOPMENT_TEAM = 9U7FVWW6CS;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ClickerGameStoreSchmidt/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "ClickEd Sheeran";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -335,6 +336,7 @@
 				DEVELOPMENT_TEAM = 9U7FVWW6CS;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ClickerGameStoreSchmidt/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "ClickEd Sheeran";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

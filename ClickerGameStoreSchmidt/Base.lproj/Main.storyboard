@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="WwP-Vz-ytN">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="WwP-Vz-ytN">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -106,15 +106,16 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Points: 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="55t-bL-qBL">
-                                        <rect key="frame" x="0.0" y="20.333333333333329" width="393" height="28"/>
+                                        <rect key="frame" x="0.0" y="20.333333333333329" width="393" height="33"/>
                                         <fontDescription key="fontDescription" name="Impact" family="Impact" pointSize="28"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uKR-AD-9Wy">
-                                        <rect key="frame" x="0.0" y="48.333333333333343" width="393" height="35.666666666666657"/>
+                                        <rect key="frame" x="0.0" y="53.333333333333343" width="393" height="35.666666666666657"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Add Multiplier (50pts)">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="18"/>
                                             <color key="baseBackgroundColor" red="0.86274516580000005" green="0.1843137443" blue="0.46666666870000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </buttonConfiguration>
                                         <connections>
@@ -122,15 +123,16 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vt1-e4-sES">
-                                        <rect key="frame" x="0.0" y="84" width="393" height="20.333333333333329"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <rect key="frame" x="0.0" y="89" width="393" height="28.666666666666671"/>
+                                        <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="13"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P6s-Gi-YlT">
-                                        <rect key="frame" x="0.0" y="104.33333333333334" width="393" height="36"/>
+                                        <rect key="frame" x="0.0" y="117.66666666666667" width="393" height="35.666666666666671"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="More Points Per Click (20pts)">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="18"/>
                                             <color key="baseBackgroundColor" red="0.86274516580000005" green="0.1843137443" blue="0.46666666870000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </buttonConfiguration>
                                         <connections>
@@ -138,23 +140,32 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Multiplier: 1.0x Add: 1.0+" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vtf-ZK-jio">
-                                        <rect key="frame" x="0.0" y="140.33333333333334" width="393" height="20.333333333333343"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <rect key="frame" x="0.0" y="153.33333333333331" width="393" height="28.666666666666657"/>
+                                        <fontDescription key="fontDescription" name="Impact" family="Impact" pointSize="15"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zBo-8c-aau">
-                                        <rect key="frame" x="0.0" y="160.66666666666669" width="393" height="35.666666666666657"/>
+                                        <rect key="frame" x="0.0" y="182" width="393" height="35.666666666666657"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Unlock Mini Game (500pts)">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="18"/>
                                             <color key="baseBackgroundColor" red="0.86274516580000005" green="0.1843137443" blue="0.46666666870000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="miniGameAction:" destination="R5O-6I-Cmz" eventType="touchUpInside" id="JJd-28-5hQ"/>
                                         </connections>
                                     </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="67r-Ci-PNY">
+                                        <rect key="frame" x="0.0" y="217.66666666666669" width="393" height="61.333333333333314"/>
+                                        <color key="backgroundColor" red="0.62352943419999995" green="0.1294117719" blue="0.33725491169999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <gestureRecognizers/>
+                                        <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="17"/>
+                                        <color key="textColor" red="0.86274516580000005" green="0.1843137443" blue="0.46666666870000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="up1-bI-dy2">
-                                        <rect key="frame" x="0.0" y="196.33333333333331" width="393" height="518.66666666666674"/>
+                                        <rect key="frame" x="0.0" y="279" width="393" height="436"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -162,10 +173,11 @@
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="N78-Kg-mAF" firstAttribute="height" secondItem="SVi-fj-Rv0" secondAttribute="height" multiplier="0.0284382" id="ELg-Qm-zKZ"/>
-                                    <constraint firstItem="vtf-ZK-jio" firstAttribute="height" secondItem="SVi-fj-Rv0" secondAttribute="height" multiplier="0.0284382" id="GYN-Jn-wJD"/>
-                                    <constraint firstItem="55t-bL-qBL" firstAttribute="height" secondItem="SVi-fj-Rv0" secondAttribute="height" multiplier="0.0391608" id="Iyn-2Y-a7O"/>
+                                    <constraint firstItem="vtf-ZK-jio" firstAttribute="height" secondItem="SVi-fj-Rv0" secondAttribute="height" multiplier="0.04" id="GYN-Jn-wJD"/>
+                                    <constraint firstItem="55t-bL-qBL" firstAttribute="height" secondItem="SVi-fj-Rv0" secondAttribute="height" multiplier="0.046" id="Iyn-2Y-a7O"/>
                                     <constraint firstItem="P6s-Gi-YlT" firstAttribute="height" secondItem="SVi-fj-Rv0" secondAttribute="height" multiplier="0.05" id="NuS-pS-oxO"/>
-                                    <constraint firstItem="vt1-e4-sES" firstAttribute="height" secondItem="SVi-fj-Rv0" secondAttribute="height" multiplier="0.0284382" id="SOJ-9B-W7K"/>
+                                    <constraint firstItem="vt1-e4-sES" firstAttribute="height" secondItem="SVi-fj-Rv0" secondAttribute="height" multiplier="0.04" id="SOJ-9B-W7K"/>
+                                    <constraint firstItem="up1-bI-dy2" firstAttribute="height" secondItem="SVi-fj-Rv0" secondAttribute="height" multiplier="0.61" id="bGT-cg-yP1"/>
                                     <constraint firstItem="uKR-AD-9Wy" firstAttribute="height" secondItem="SVi-fj-Rv0" secondAttribute="height" multiplier="0.05" id="nTI-yP-F2X"/>
                                     <constraint firstItem="zBo-8c-aau" firstAttribute="height" secondItem="SVi-fj-Rv0" secondAttribute="height" multiplier="0.05" id="xkU-8j-4bm"/>
                                 </constraints>
@@ -183,9 +195,10 @@
                     <navigationItem key="navigationItem" title="STORE" id="EfI-kE-qb5"/>
                     <connections>
                         <outlet property="errorOutlet" destination="vt1-e4-sES" id="Gd0-op-FMB"/>
+                        <outlet property="minigameButtonOutlet" destination="zBo-8c-aau" id="hX7-Lb-Kpq"/>
                         <outlet property="pointsLabelOutlet" destination="55t-bL-qBL" id="sis-QN-JxT"/>
                         <outlet property="powerUpOutlet" destination="vtf-ZK-jio" id="FUX-AQ-uTl"/>
-                        <segue destination="7X1-71-Plz" kind="show" identifier="miniGameSegue" id="KZP-Ab-tPV"/>
+                        <segue destination="7X1-71-Plz" kind="show" identifier="minigameSegue" id="KZP-Ab-tPV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PAF-fY-ePb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -224,15 +237,42 @@
                                     <outletCollection property="gestureRecognizers" destination="mTJ-5N-AgX" appends="YES" id="DTK-u5-Oqt"/>
                                 </connections>
                             </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="marioHat" translatesAutoresizingMaskIntoConstraints="NO" id="5lR-qj-2p2">
+                                <rect key="frame" x="0.0" y="549" width="149" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="c60-DF-Esk" appends="YES" id="ojC-0l-clM"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="guitar" translatesAutoresizingMaskIntoConstraints="NO" id="NBF-Od-P9i">
+                                <rect key="frame" x="112" y="621" width="265" height="197"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="ypS-fY-42v" appends="YES" id="gHM-eL-SO9"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pinkBow" translatesAutoresizingMaskIntoConstraints="NO" id="LeY-1g-lUg">
+                                <rect key="frame" x="201" y="549" width="139" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="mqp-7L-eJk" appends="YES" id="HZo-7K-mQj"/>
+                                </connections>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="fAD-tB-AYn"/>
                         <color key="backgroundColor" red="0.82346117739793823" green="0.17164524435264564" blue="0.44220066298474336" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" title="MINIGAME PLAY" id="ofg-ew-578"/>
                     <connections>
+                        <outlet property="bowOutlet" destination="LeY-1g-lUg" id="cgL-5s-3Gm"/>
                         <outlet property="edHandsOutlet" destination="WnT-U2-3aY" id="A8f-Gu-0gy"/>
                         <outlet property="edHiOutlet" destination="UpK-aD-H8m" id="hKv-yu-mdf"/>
                         <outlet property="edSillyOutlet" destination="Hbz-R0-YEb" id="UDs-Aq-0cK"/>
+                        <outlet property="guitarOutlet" destination="NBF-Od-P9i" id="q4T-F2-LbF"/>
+                        <outlet property="marioOutlet" destination="5lR-qj-2p2" id="j1S-k0-Aea"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="95K-2W-Y6b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -249,6 +289,21 @@
                 <panGestureRecognizer minimumNumberOfTouches="1" id="mTJ-5N-AgX">
                     <connections>
                         <action selector="edSillyDragAction:" destination="7X1-71-Plz" id="zNJ-gb-vvn"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="c60-DF-Esk">
+                    <connections>
+                        <action selector="marioDragAction:" destination="7X1-71-Plz" id="7hd-yI-lc2"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="mqp-7L-eJk">
+                    <connections>
+                        <action selector="bowDragAction:" destination="7X1-71-Plz" id="jX5-5X-VgE"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="ypS-fY-42v">
+                    <connections>
+                        <action selector="guitarDragAction:" destination="7X1-71-Plz" id="A13-mO-33t"/>
                     </connections>
                 </panGestureRecognizer>
             </objects>
@@ -278,6 +333,9 @@
         <image name="edHandsUp" width="1024" height="681"/>
         <image name="edHi" width="500" height="469"/>
         <image name="edSilly" width="472" height="750"/>
+        <image name="guitar" width="1920" height="1082"/>
+        <image name="marioHat" width="321" height="357"/>
+        <image name="pinkBow" width="600" height="499"/>
         <image name="store" width="800" height="630"/>
     </resources>
 </document>
