@@ -1,5 +1,6 @@
 import UIKit
 
+//MVP and Stretch 1 Complete
 class MinigameViewController: UIViewController {
     
     @IBOutlet weak var guitarOutlet: UIImageView!
