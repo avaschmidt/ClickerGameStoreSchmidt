@@ -10,9 +10,11 @@ class ViewController: UIViewController {
 
     
     @IBOutlet weak var pointsOutlet: UILabel!
-    
+    var defaults = UserDefaults.standard
     override func viewDidLoad() {
         super.viewDidLoad()
+        var p = defaults.double(forKey: "points")
+        AppData.points = p
         pointsOutlet.text = "Points: \(AppData.points)"
        
     }
@@ -36,6 +38,11 @@ class ViewController: UIViewController {
         performSegue(withIdentifier: "storeSegue", sender: self)
     }
     
+    @IBAction func saveAction(_ sender: UIButton) {
+        
+        defaults.set(AppData.points, forKey: "points")
+        
+    }
     
         
     

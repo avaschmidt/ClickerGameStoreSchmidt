@@ -12,9 +12,13 @@ class StoreViewController: UIViewController {
     
     var unlocked = false
     
+    var defaults = UserDefaults.standard
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        var m = defaults.double(forKey: "multiply")
+        AppData.multiplier = m
+        var a = defaults.double(forKey: "add")
+        AppData.add = a
        
             
         pointsLabelOutlet.text = "Points: \(AppData.points)"
@@ -79,7 +83,12 @@ class StoreViewController: UIViewController {
     
     
    
+    @IBAction func saveUpgradeAction(_ sender: UIButton) {
+        defaults.set(AppData.multiplier, forKey: "multiply")
+        defaults.set(AppData.add, forKey: "add")
         
+    }
+    
     
     
     
